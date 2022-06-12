@@ -3,16 +3,107 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.kaba-tech.alfred-ts</string>
+	<string>com.apple.alfred.workflow.resizeimage</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<key>079B3700-688B-4947-AFF5-8DF640D1BD95</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3CE7538C-F2BC-4FCE-9937-56BE3CA806C3</string>
+				<string>CF6BC119-454A-48C0-B997-4286CFDD2625</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>16F50928-BDC7-4B37-AFE5-136487D8A62C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>66F406E0-259F-4227-8467-EF43BA80321C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2E572FC9-A312-4DFE-84CA-69AC0EC980F8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>568FB9D3-2D7A-458E-BC61-D3CC7A1BCF69</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4D0769EA-8EEC-4D8E-96E7-AA952F8F1E31</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5141C668-6EBD-497A-AF23-8034377E6466</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>568FB9D3-2D7A-458E-BC61-D3CC7A1BCF69</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>079B3700-688B-4947-AFF5-8DF640D1BD95</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>66F406E0-259F-4227-8467-EF43BA80321C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B8D2F026-90FB-4946-B6F7-CA255DD40522</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B8D2F026-90FB-4946-B6F7-CA255DD40522</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4D0769EA-8EEC-4D8E-96E7-AA952F8F1E31</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CF6BC119-454A-48C0-B997-4286CFDD2625</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>66F406E0-259F-4227-8467-EF43BA80321C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -23,132 +114,280 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>kaba &lt;kaba-tech@outlook.com&gt;</string>
+	<string>Acidham</string>
 	<key>description</key>
-	<string>Timestamp Tool</string>
+	<string>Resize an image(s) width and respect ratio</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>kaba-ts</string>
+	<string>Resize Images</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
+				<key>acceptsmulti</key>
 				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>ts</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>./ts alfred $1</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>ts +1d12h is add 1 days, 12 hours</string>
-				<key>title</key>
-				<string>Timestamp Tool</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
+				<key>filetypes</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+				</array>
+				<key>name</key>
+				<string>Resize Image(s)</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.trigger.action</string>
 			<key>uid</key>
-			<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
+			<string>2E572FC9-A312-4DFE-84CA-69AC0EC980F8</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
+				<key>concurrently</key>
 				<false/>
-				<key>clipboardtext</key>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv	set theQuery to {}	repeat with i in argv		set theQuery to theQuery &amp; i	end repeat	set theRet to MergeList(theQuery, ";")	return theRetend runon MergeList(theArray, theDelimiter)	-- save delimiters to restore old settings	set oldDelimiters to AppleScript's text item delimiters	-- set delimiters to delimiter to be used	set AppleScript's text item delimiters to theDelimiter	-- create String from Array	set theString to theArray as text	-- restore the old setting	set AppleScript's text item delimiters to oldDelimiters	-- return the result	return theStringend MergeList</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>568FB9D3-2D7A-458E-BC61-D3CC7A1BCF69</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>Paths</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>CF6BC119-454A-48C0-B997-4286CFDD2625</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>079B3700-688B-4947-AFF5-8DF640D1BD95</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
 				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
+				<key>title</key>
+				<string>Resize Image</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>5141C668-6EBD-497A-AF23-8034377E6466</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)	set theCount to 0	-- explode file paths and target width when using alfred file buffer	if q starts with "/" then		set theVars to StringSplit(q, "|")		--set thePaths to (system attribute "split1")		--set target_width to (system attribute "split2")		set thePaths to item 1 of theVars		set target_width to item 2 of theVars		set theSelection to StringSplit(thePaths, ";")		-- else get selection from finder and target width	else		set target_width to text 2 through end of q		set currSelection to {}		tell application "Finder"			set theSelection to selection		end tell	end if		-- Get total amount of images passed to workflow	set theTargetCount to count of theSelection		repeat with this_file in theSelection		-- set POSIX path when alias was passed		if (this_file as text) contains ":" then			tell application "Finder"				set myPath to POSIX path of (this_file as text)			end tell			-- else set POISX path passed to wf action		else			set myPath to this_file		end if		-- try to get a jpg or png files		try			tell application "Image Events"				-- open the image file				set this_image to open myPath				-- get dimensions of the image				copy dimensions of this_image to {W, H}				-- calculate scale factor with given width and scale the image				set scale_factor to target_width / W				scale this_image by factor scale_factor				save this_image in myPath				close this_image				-- get new image width and height for output				set new_W to round (W * scale_factor) rounding as taught in school				set new_H to round (H * scale_factor) rounding as taught in school				set new_size to new_W &amp; " x " &amp; new_H			end tell			-- set the_return to (W &amp; " x " &amp; H &amp; " → " &amp; new_size) as text			-- return the_return			set theCount to theCount + 1		on error errStr number errorNumber			--return "No image file found!"			log errStr			return errStr		end try	end repeat	-- return how many images where processed	return (theTargetCount &amp; " of " &amp; theCount &amp; " files were processed") as textend alfred_scripton StringSplit(theString, theDelimiter)	-- save delimiters to restore old settings	set oldDelimiters to AppleScript's text item delimiters	-- set delimiters to delimiter to be used	set AppleScript's text item delimiters to theDelimiter	-- create the array	set theArray to every text item of theString	-- restore the old setting	set AppleScript's text item delimiters to oldDelimiters	-- return the result	return theArrayend StringSplit</string>
+				<key>cachescript</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
+			<string>alfred.workflow.action.applescript</string>
 			<key>uid</key>
-			<string>3CE7538C-F2BC-4FCE-9937-56BE3CA806C3</string>
+			<string>4D0769EA-8EEC-4D8E-96E7-AA952F8F1E31</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>rimage</string>
+				<key>subtext</key>
+				<string>Resize image(s) width to {query} px</string>
+				<key>text</key>
+				<string>Enter target image(s) width</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>66F406E0-259F-4227-8467-EF43BA80321C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:Paths}|{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B8D2F026-90FB-4946-B6F7-CA255DD40522</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>15</integer>
+				<key>hotmod</key>
+				<integer>1310720</integer>
+				<key>hotstring</key>
+				<string>R</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.apple.finder</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>16F50928-BDC7-4B37-AFE5-136487D8A62C</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Alfred Timestamp Workflow
-
-Alfred Keyword: ts
-
-Usage: ts &lt;duration&gt;
-
- duration:
-
- +1w: add 1 weeks
- +2d: add 2 days
- -1h: sub 1 hours
- -2m: sub 2 minutes
- -3s: sub 3 seconds
- +4ms: add 4 milliseconds
- +5us: add 5 microseconds
- +6ns: add 6 nanoseconds
- +1d12h30m: add 1 days, 12 hours and 30 minutes
-
-Output Format:
-
- int
- 2006-01-02
- 2006-01-02 15:04:05
- 2006-01-02T15:04:05Z07:00
- Mon, 02 Jan 2006 15:04:05</string>
+	<string>Resize Image(s) from Finder selection or from Alfred</string>
 	<key>uidata</key>
 	<dict>
-		<key>3CE7538C-F2BC-4FCE-9937-56BE3CA806C3</key>
+		<key>079B3700-688B-4947-AFF5-8DF640D1BD95</key>
 		<dict>
 			<key>xpos</key>
-			<integer>310</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>55</integer>
+			<integer>150</integer>
 		</dict>
-		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<key>16F50928-BDC7-4B37-AFE5-136487D8A62C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>360</integer>
+		</dict>
+		<key>2E572FC9-A312-4DFE-84CA-69AC0EC980F8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>90</integer>
+		</dict>
+		<key>4D0769EA-8EEC-4D8E-96E7-AA952F8F1E31</key>
+		<dict>
+			<key>note</key>
+			<string>Process image(s)</string>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>5141C668-6EBD-497A-AF23-8034377E6466</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1070</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>568FB9D3-2D7A-458E-BC61-D3CC7A1BCF69</key>
+		<dict>
+			<key>note</key>
+			<string>create query string from Argv</string>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>90</integer>
+		</dict>
+		<key>66F406E0-259F-4227-8467-EF43BA80321C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>B8D2F026-90FB-4946-B6F7-CA255DD40522</key>
+		<dict>
+			<key>xpos</key>
+			<integer>815</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>CF6BC119-454A-48C0-B997-4286CFDD2625</key>
+		<dict>
+			<key>note</key>
+			<string>Store argv as text string sep. with ;</string>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>150</integer>
 		</dict>
 	</dict>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string>1.2</string>
 	<key>webaddress</key>
-	<string>kaba-tech.com</string>
+	<string></string>
 </dict>
 </plist>
